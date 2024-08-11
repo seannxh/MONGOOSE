@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(189, 177, 189, 0.836);
+}
+
+.lb, .leg, .sub, .type, .p{
+    font-weight: bold;
+}
+
+.sub, .type{
+    background-color: gainsboro;
+}
+
+.leg {
+    font-size: 25px;
+}
+
+.sub{
+    margin-top: 0px;
+    margin-left: 25px;
+}
