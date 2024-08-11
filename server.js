@@ -45,6 +45,10 @@ app.get("/customer/new", (req, res) => {
     res.render('customer.ejs')
 })
 
+app.get("/main", (req, res) => {
+    res.render('main.ejs')
+})
+
 app.delete('/customer/:id', async (req, res) => {
     try{
         res.json(await Customer.findByIdAndDelete(req.params.id))
